@@ -4,7 +4,7 @@ import org.litepal.crud.LitePalSupport;
 
 public class County extends LitePalSupport {
     private int id;
-    private String countName;
+    private String countyName;
     //县所对应天气的id
     private String weatherId;
     //当前县所属市
@@ -18,12 +18,12 @@ public class County extends LitePalSupport {
         this.id = id;
     }
 
-    public String getCountName() {
-        return countName;
+    public String getCountyName() {
+        return countyName;
     }
 
-    public void setCountName(String countName) {
-        this.countName = countName;
+    public void setCountName(String countyName) {
+        this.countyName = countyName;
     }
 
     public String getWeatherId() {
