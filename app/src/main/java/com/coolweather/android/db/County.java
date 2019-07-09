@@ -22,7 +22,7 @@ public class County extends LitePalSupport {
         return countyName;
     }
 
-    public void setCountName(String countyName) {
+    public void setCountyName(String countyName) {
         this.countyName = countyName;
     }
 
