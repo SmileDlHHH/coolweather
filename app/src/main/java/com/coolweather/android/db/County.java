@@ -1,8 +1,10 @@
 package com.coolweather.android.db;
 
+import org.litepal.LitePal;
 import org.litepal.crud.LitePalSupport;
 
-public class County extends LitePalSupport {
+public class County extends LitePalSupport{
+
     private int id;
     private String countyName;
     //县所对应天气的id
